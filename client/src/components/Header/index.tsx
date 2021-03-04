@@ -3,7 +3,9 @@ import Logo from '../Logo';
 
 const Header: React.FC = () => (
   <div className="header">
-    <Logo />
+    <div className="wrapper header-wrapper">
+      <Logo />
+    </div>
   </div>
 );
 
