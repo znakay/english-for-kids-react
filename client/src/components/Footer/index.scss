@@ -1,0 +1,41 @@
+.footer {
+    padding: 15px 0;
+    background-color: #d3dbe0;
+    color: #000;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-networks-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    max-width: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.social-networks-item {
+    width: 25px;
+    height: 25px;
+
+    img {
+        width: 25px;
+        height: 25px;
+        transform: none;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.created-by {
+    font-weight: 400;
+}
