@@ -39,3 +39,13 @@
 .created-by {
     font-weight: 400;
 }
+
+@media (max-width: 470px) {
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+    .social-networks-list {
+        margin-bottom: 5px;
+    }
+}
